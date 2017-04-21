@@ -1,0 +1,71 @@
+/* Start Media Query*/
+
+/* From 0 to Mobile*/ /*Smart Phones And Tablets*/
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .subscribe .form-control{
+        margin: 20px auto;
+    }
+    
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse{
+        max-height: none;
+    }
+    
+    .team .our_team .work{
+        margin-bottom: 80px;
+    }
+    
+    .choose .why .pra h2{
+        text-align: center;
+    }
+    
+    .contact .contact_me .form-group{
+        border: none;
+    }
+    
+    .contact .contact_me .message{
+        margin-left: 60px;
+    }
+    
+    .contact .contact_me .message button{
+        margin-left: -60px;
+    }
+    
+    .service .serv .photo .im .title{
+        display: none;
+    }
+}
+
+/* From Small To Medium*/ /*Small Screen*/
+@media (min-width: 768px) and (max-width: 991px){
+    .team .our_team .work{
+        margin-bottom: 40px;
+    }
+    
+}
+
+/*Medium Screen*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*Large Screen*/
+@media (min-width: 1200px){
+    .about .photo{
+        margin-left: 130px;
+    }
+    
+    .booking .openning{
+        margin-left: -50px;
+        margin-right: 40px;
+    }
+}
+
+/* End Media Query*/
+
+

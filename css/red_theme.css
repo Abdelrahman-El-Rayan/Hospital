@@ -1,0 +1,175 @@
+
+.top-bar li a , i{
+    color: #E41B17;
+}
+
+.top-bar .social-icons i{
+    color: #E41B17;
+}
+
+
+.navbar{
+    /*background-color: rgba(0,129,232,.9);*/
+    background-color: #FF0000;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #E41B17;
+}
+
+
+.navbar .navbar-brand span{
+    color: #E41B17;
+}
+
+.navbar .navbar-brand  p{
+    margin-top: -25px;
+    font-size: 12px;
+    padding-left: 55px;
+    color: #E41B17;
+}
+
+.carousel-indicators .active{
+    width: 5px;
+    height: 17px;
+    background-color: #E41B17;
+}
+
+.booking{
+    height: 250px;
+    background-color: #98FB98;
+}
+
+.booking .openning {
+    height: 70%;
+    width:40%;
+    margin: 30px 10px 0 70px;
+    padding-left: 30px;
+    /*background-color: rgba(0,79,178,.9);*/
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
+.booking .number {
+    width:40%;
+    height: 70%;
+    margin: 30px 10px 0 20px;
+    background-color: #E41B17;
+    /*background-color: rgba(0,129,232,.9);*/
+    border-radius: 10px;
+}
+
+
+.hello h2{
+    color: #E41B17;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    margin-left: -20px;
+}
+
+.hello p{
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    margin-left: -100px;
+    color: #FF0000;
+}
+
+.map .hr {
+    width: 100%;
+    border-top:  2px solid #E41B17;
+
+}
+
+
+.map .place{
+    width: 280px;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    background-color: #DDD;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 40px;
+    margin-top: -20px;
+    padding: 0 20px;
+    color: #E41B17;
+}
+
+
+.about h1{
+    font-size: 50px;
+    font-family: 'Piedra', cursive;
+    color: #E41B17;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: #E41B17;
+    text-shadow: 1px 1px #C8302A;
+}
+
+
+.footer .copyright{
+    background-color: #FF0000;
+    color: #EEE;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+
+.footer .copyright .ray span{
+    color: #E41B17;
+}
+
+
+.faq h1{
+    font-family: 'Piedra', cursive;
+    letter-spacing: -3px;
+    font-size: 60px;
+    color: #E41B17;
+}
+
+.faq p{
+    color: #FF0000;
+}
+
+.faq-question .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #E41B17;
+}
+
+.faq-question a.collapsed{
+    color: #E41B17;
+}
+
+.contact .contact_me i{
+    padding-top: 20px;
+    color: #E41B17;
+}
+
+.contact .contact_me .h1{
+    color: #E41B17;
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.contact .contact_me .form-group  [placeholder]{
+    color: #E41B17;
+}
+
+.carousel-control span{
+    color: #E41B17;
+}
+
+.hello img {
+    background-color: #FF0000;
+}

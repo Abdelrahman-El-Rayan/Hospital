@@ -1,0 +1,649 @@
+
+.top-bar li a , i{
+    color: #107FC9;
+}
+
+.top-bar .social-icons i{
+    color: #107FC9;
+}
+
+
+.navbar{
+    /*background-color: rgba(0,129,232,.9);*/
+/*    background-color: #7AC94F;*/
+    background-color: #FFF;
+    z-index: 99;
+    border-bottom: .5px dotted #107FC9;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #107FC9;
+    font-family: 'Acme',serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+/*    background-color: #169c42;*/
+    font-weight: bold;
+    color: #333333;
+    background-color: transparent;
+}
+
+
+.navbar .navbar-brand span{
+    color: #333333;
+}
+
+/*-----------------------------------------------------*/
+
+.navbar .navbar-brand  p{
+    margin-top: -25px;
+    font-size: 12px;
+    padding-left: 55px;
+    color: #107FC9;
+}
+
+.carousel-indicators .active{
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+
+#myslide{
+    top: -22px;
+}
+/*--------------------------------------------------*/
+.booking{
+    background-color: #98FB98;
+}
+
+.booking .book{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.booking .openning {
+    background-color: #7AC94F;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.booking .number {
+    background-color: #169c42;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.booking .number p{
+    line-height: 25px;
+}
+/*----------------------------------------------------------*/
+.hello h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bitter', sans-serif;
+    margin-left: -20px;
+}
+
+.hello p{
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    color: #107FC9;
+}
+/*---------------------------------------------------*/
+.say{
+    background: url('../img/team/index_test_bgimg1.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+
+.say .people{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.say .people h2{
+    font-family: 'Bitter',serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.say .people .pra{
+    font-family: 'Acme',serif;
+    font-size: 19px;
+    padding-bottom: 20px;
+    color: #107FC9;
+}
+
+
+.say .people .lead{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.say .people span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.say .people .carousel-inner{
+    min-height: 160px;
+}
+
+
+.say .people .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+}
+
+.say .people .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 2px solid #107FC9;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.say .people .carousel-indicators li.active{
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+.say .people .carousel-indicators li img{
+    max-width: 100%;
+}
+
+.say .people .item p{
+    font-family: 'Bitter',serif;
+}
+
+.say .people .item span{
+    font-family: 'Acme',serif;
+    color: #107FC9;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*---------------------------------------------------*/
+.service{
+    margin-top: 40px;
+    background-color: #F0F8FF;
+}
+
+.service h2{
+    font-family: 'Bitter',serif;
+    font-size: 30px;
+    color: #107FC9;
+    font-weight: bold;
+    color: #333333;
+    
+}
+
+.service .serv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service .serv .photo .im{
+    margin-bottom: 20px;
+    opacity: 0.6;
+    transition: all .5s ease-in-out;
+}
+
+.service .serv .photo .im:hover{
+    opacity: 1;
+}
+
+/*
+.service .serv .photo .im .title{
+    width: 100%;
+    height: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #107FC9;
+    z-index: 1;
+}
+*/
+
+.service .serv .photo .im .title{
+    font-family: 'Acme',serif;
+    font-size: 25px;
+    color: #107FC9;
+}
+
+/*----------------------------------------------------------*/
+.team{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.team .our_team{
+    padding-bottom: 40px;
+}
+
+.team .our_team h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #333333;
+    font-family: 'Bitter',serif;
+    font-weight: bold;
+}
+
+.team .our_team hr{
+    width: 100%;
+}
+
+.team .our_team p{
+    font-family: 'Acme',serif;
+    font-size: 19px;
+    color: #107FC9;
+}
+
+.team .our_team .work{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.team .our_team .work .name{
+    position: absolute;
+    width: 100%;
+    color: #107FC9;
+    font-family: 'Acme',serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/*---------------------------------------------------------------*/
+.choose{
+    margin-top: 80px;
+}
+
+.choose .why{
+    padding-top: 20px;
+    margin-bottom: 45px;
+}
+
+
+.choose .why .pra h2{
+    font-family: 'Bitter',serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.choose .why .pra p{
+    padding-top: 55px;
+    font-family: 'Bitter',serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #107FC9;
+}
+/*--------------------------------------------------------------*/
+.prime{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.prime h5{
+    font-family: 'Bitter' , serif;
+    font-weight: bold;
+}
+
+.prime p{
+    font-family: 'Acme',serif;
+    font-size: 16px;
+}
+/*---------------------------------------------------------*/
+.health{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.health h2{
+    font-family: 'Bitter',serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.health h3{
+    font-family: 'Bitter',serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.health .bord{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.health .bord p{
+    font-family: 'Acme',serif;
+    color: #107FC9;
+}
+/*--------------------------------------------------------*/
+.index_bg_image{
+    background: url(../img/index1_world.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.index_bg_image .facility{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.index_bg_image .facility .head{
+    color: #FFF;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Bitter' , serif;
+}
+
+.index_bg_image .facility span , i{
+    color: #FFF;
+    font-family: 'Acme',serif;
+    font-size: 17px;
+}
+
+.index_bg_image .facility a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: 'Bitter',serif;
+    background-color: transparent;
+}
+
+/*----------------------------------------------------*/
+.depart{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.depart h3{
+    font-family: 'Bitter',serif;
+    font-weight: bold;
+}
+
+.depart .dap{
+    padding-bottom: 30px;
+    margin-top: 70px;
+}
+
+.depart .dap .field{
+    border: 1px solid #107FC9;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.depart .dap .field h2{
+    color: #107FC9;
+    font-family: 'Acme',serif;
+    font-size: 20px;
+}
+
+
+/*-----------------------------------------------------*/
+.map .hr {
+    width: 100%;
+    border-top:  2px solid #107FC9;
+
+}
+
+
+.map .place{
+    width: 280px;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    background-color: #DDD;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 40px;
+    margin-top: -20px;
+    padding: 0 20px;
+    color: #107FC9;
+}
+
+/*------------------------------------------------------*/
+.about h1{
+    font-size: 50px;
+    font-family: 'Bitter', cursive;
+    color: #333333;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.about p{
+    font-family: 'Acme',serif;
+    font-size: 19px;
+    color: #107FC9;
+}
+
+.about h3{
+    font-family: 'Bitter',serif;
+    font-size: 30px;
+}
+/*-----------------------------------------------*/
+.adventage{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.adventage .our_adventage{
+    padding-top: 20px;
+}
+
+.adventage .our_adventage i{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.adventage .our_adventage .box{
+    border: 1px solid #107FC9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.adventage h3{
+    font-family: 'Bitter',serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.adventage .our_adventage h6{
+    font-size: 25px;
+    font-family: 'Bitter',serif;
+    text-align: center;
+}
+
+.adventage .our_adventage p{
+    color: #646464;
+    text-align: center;
+}
+
+.adventage .advantages_image img {
+    position: absolute;
+    left: 22%;
+    margin: 0 auto;
+    top: -655px;
+}
+/*-----------------------------------------------*/
+.team h3{
+    font-family: 'Bitter',serif;
+    font-weight: bold;
+}
+
+.team .our-team{
+    padding-top: 20px;
+}
+
+.team .our-team .photo{
+    border: 0.5px solid #DDD;
+    border-radius: 20px;
+}
+
+.team .our-team .photo img{
+    padding-top: 20px;
+}
+
+.team .our-team .photo .content h5{
+    font-family: 'Bitter',serif;
+    font-size: 20px;
+}
+
+.team .our-team .photo .content span{
+    font-family: 'Acme',serif;
+    font-size: 20px;
+    color: #107FC9;
+}
+/*---------------------------------------------*/
+.appointment h2{
+    font-weight: bold;
+    font-family: 'Bitter',serif;
+}
+
+.appointment .app{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.appointment .app form{
+    padding: 80px;
+    border: 20px solid #107FC9;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.appointment .app form label{
+    color: #107FC9;
+}
+
+.appointment .app form .form-control{
+    background-color: #fafafa;
+}
+/*----------------------------------------------*/
+.founder{
+    background-color: #CAFFC8;
+}
+
+.founder h2{
+    font-family: 'Piedra', sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px #C8302A;
+}
+
+.founder .data{
+    padding-top: 80px;
+}
+
+.founder .data p{
+    font-family: 'Acme' , serif;
+    font-size: 20px;
+    color: #169c42;
+}
+/*----------------------------------------*/
+.news h1{
+    font-family: 'Bitter', sans-serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.news .latest{
+    padding-top: 20px;
+}
+
+.news .latest img{
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.news .latest p{
+    font-family: 'Acme',serif;
+    font-size: 20px;
+    color: #107FC9;
+}
+
+.news .latest span{
+    font-weight: bold;
+}
+
+.news .latest hr{
+    padding-bottom: 20px;
+}
+/*-----------------------------------------------*/
+.footer .copyright{
+    background-color: #107FC9;
+    color: #EEE;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+
+.footer .copyright .ray span{
+    color: #333;
+}
+/*-----------------------------------------------------*/
+
+.faq h1{
+    font-family: 'Bitter', cursive;
+    letter-spacing: -3px;
+    font-size: 40px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.faq p{
+    color: #107FC9;
+    font-family: 'Acme',serif;
+    font-size: 20px;
+}
+
+.faq-question .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #107FC9;
+}
+
+.faq-question a.collapsed{
+    color: #107FC9;
+}
+
+.contact .contact_me i{
+    padding-top: 20px;
+    color: #107FC9;
+}
+
+.contact .contact_me .h1{
+    color: #107FC9;
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.contact .contact_me .form-group  [placeholder]{
+    color: #107FC9;
+}
+
+.carousel-control span{
+    color: #107FC9;
+}
+
